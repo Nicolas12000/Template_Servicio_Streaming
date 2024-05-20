@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-form</title>
+    <link rel="stylesheet" href="style-login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display-swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Bienvenido</h2>
+        <form action="#">
+            <div class="input-field"> 
+                <input type="email" id="email" placeholder="Username" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password" placeholder="Password" required>
+                <i class="bx bxs-lock"></i>
+            </div>
+            <a href="#" class="forgot">
+                <p>¿Olvidaste tu contraseña?</p>
+            </a>
+            <button type="submit" class="login">Inicia sesión</button>
+            <div class="social">
+                <div class="go"><i class="fab fa-google"></i> Google</div>
+                <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
+            </div>
+            <p>¿No tiene una cuenta? <a href="#" class="sing-up">Crea una cuenta</a></p>
+        </form>
+    </div>
+</body>
+</html>

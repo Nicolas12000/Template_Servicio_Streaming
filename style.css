@@ -249,7 +249,8 @@ hr {
     color: #FF2F28;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+    
     .menu {
         padding: 20px;
     }
@@ -259,17 +260,12 @@ hr {
     }
 
     .menu .navbar {
-        display: none;
-        flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 100%;
         left: 0;
         right: 0;
         background-color: rgba(0, 0, 0, 0.9);
-    }
-
-    .menu .navbar.active {
-        display: flex;
+        display: none;
     }
 
     .menu .navbar ul li {
